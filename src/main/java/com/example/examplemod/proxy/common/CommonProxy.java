@@ -1,19 +1,20 @@
 package com.example.examplemod.proxy.common;
 
+import Himlical.handler.RegisterHimical;
 import com.example.examplemod.proxy.common.handler.*;
-import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.common.MinecraftForge;
 
 public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
-        //FMLCommonHandler.instance().bus().register(new FMLEventListener());
         ModRegItems.register();
         ModRegTools.register();
         ModRegBlocks.register();
+
+        RegisterHimical.register();
+
         MinecraftForge.EVENT_BUS.register(new BucketHandler());
     }
 

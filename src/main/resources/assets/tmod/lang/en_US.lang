@@ -4,6 +4,8 @@ item.ring.name=Ring
 item.high_speed_leg.name=High-speed leg
 item.item_ruby.name=Ruby
 
+item.element_hydrogen=Hydrogen
+
 tile.ruby_block.name=Ruby block
 
 
