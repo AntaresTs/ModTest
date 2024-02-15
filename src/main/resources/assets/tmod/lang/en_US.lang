@@ -1,0 +1,13 @@
+itemGroup.tmod=Test Moding
+
+item.ring.name=Ring
+item.high_speed_leg.name=High-speed leg
+item.item_ruby.name=Ruby
+
+tile.ruby_block.name=Ruby block
+
+
+tile.compressed_cobblestone.name=Compressed Cobblestone
+tile.double_compressed_cobblestone.name=Double Compressed Cobblestone
+tile.triple_compressed_cobblestone.name=Triple Compressed Cobblestone
+tile.quadruple_compressed_cobblestone.name=Quadruple Compressed Cobblestone
