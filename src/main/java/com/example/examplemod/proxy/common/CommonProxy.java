@@ -1,6 +1,6 @@
 package com.example.examplemod.proxy.common;
 
-import Himlical.handler.RegisterHimical;
+import Himical.handler.RegisterHimical;
 import com.example.examplemod.proxy.common.handler.*;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;

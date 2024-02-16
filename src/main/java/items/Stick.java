@@ -71,7 +71,7 @@ public class Stick extends Item {
             ItemStack equippad = player.getCurrentEquippedItem();
 
             if (equippad == itemStack){ // если у игрока есть эта палка, то он получает следующие эффекты.
-                player.addPotionEffect(new PotionEffect(Potion.jump.id, 2, 2, true));
+                player.addPotionEffect(new PotionEffect(Potion.jump.id, 2, 2, true)); // id, время, сила,
                 player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 2, 2, true));
             }
         }
