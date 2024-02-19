@@ -2,7 +2,6 @@ package com.example.examplemod.proxy.client;
 
 import com.example.examplemod.proxy.common.CommonProxy;
 import com.example.examplemod.proxy.common.handler.ModRegBlocks;
-import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
